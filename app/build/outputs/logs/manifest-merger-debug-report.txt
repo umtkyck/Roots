@@ -17,6 +17,7 @@ ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidM
 		ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidManifest.xml:17:11-69
 uses-sdk
 ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidManifest.xml:21:5-22:46
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sumer\.android\build-cache\4ed1166b3cf36f1c1d068f6934e185cca5e937f8\output\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidManifest.xml:22:15-44
 		INJECTED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidManifest.xml
@@ -41,6 +42,7 @@ ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidM
 		ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidManifest.xml:30:22-71
 application
 ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidManifest.xml:32:5-50:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sumer\.android\build-cache\4ed1166b3cf36f1c1d068f6934e185cca5e937f8\output\AndroidManifest.xml:9:5-20
 	android:screenOrientation
 		ADDED from C:\Users\sumer\Documents\Android_Projects\roots\app\src\main\AndroidManifest.xml:35:17-53
 	android:label

@@ -24,4 +24,6 @@
     <color name="colordimmer">#FF9401</color>
     <color name="colorroots">#3dacb4</color>
     <color name="transparent">#ffffff</color>
+
+    <color name="black">#000000</color>
 </resources>

@@ -13,183 +13,152 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
 
-    <LinearLayout
-        android:id="@+id/on_off_layout"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="8dp"
-        android:background="@color/colorlayout"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:paddingBottom="8dp"
-            android:paddingTop="8dp"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/shutdown"
-            android:tint="@color/coloronoff" />
-
-        <Switch
-            android:id="@+id/on_off_switch"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="On/Off"
-            android:textColor="@color/coloronoff"
-            android:textSize="20sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/fadeinout_layout"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="8dp"
-        android:background="@color/colorlayout"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:paddingBottom="8dp"
-            android:paddingTop="8dp"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/ic_launcher"
-            android:tint="@color/coloronoff" />
-
-        <Switch
-            android:id="@+id/fadeinout_switch"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="Fade In/Out"
-            android:textColor="@color/coloronoff"
-            android:textSize="20sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/dimmer_layout"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_margin="8dp"
-        android:background="@color/colorlayout"
-        android:orientation="horizontal"
+    <ImageButton
+        android:id="@+id/mOnOffButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:paddingBottom="8dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:paddingTop="8dp">
+        android:paddingTop="8dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/shutdown"
+        android:tint="@color/coloronoff"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/space"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/down_imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"
-            android:background="@color/colorlayout"
-            android:paddingBottom="16dp"
-            android:paddingTop="16dp"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/light_off" />
-
-        <SeekBar
-            android:id="@+id/dimmer_seekBar"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <ImageButton
-            android:id="@+id/up_imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"
-            android:background="@color/colorlayout"
-            android:paddingBottom="16dp"
-            android:paddingTop="16dp"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/light_on" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/dla_layout"
-        android:layout_width="match_parent"
+    <Space
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_margin="8dp"
-        android:background="@color/colorlayout"
-        android:orientation="horizontal"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
+        android:id="@+id/space"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/dimmer_seekBar"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:paddingBottom="8dp"
-            android:paddingTop="8dp"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/idea"
-            android:tint="@color/colordla" />
+    <SeekBar
+        android:id="@+id/dimmer_seekBar"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:thumb="@mipmap/ic_launcher"
+        android:progressDrawable="@drawable/seekbar_progress"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/space2"
+        app:layout_constraintRight_toRightOf="@+id/space"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/space" />
 
-        <Switch
-            android:id="@+id/dla_switch"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="DLA Mode"
-            android:textColor="@color/colordla"
-            android:textSize="20sp" />
-    </LinearLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:id="@+id/space2"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/mDLAButton"
+        app:layout_constraintRight_toRightOf="@+id/dimmer_seekBar"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/dimmer_seekBar" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <ImageButton
+        android:id="@+id/mDLAButton"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/idea"
+        android:tint="@color/colordla"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/space3"
+        app:layout_constraintRight_toRightOf="@+id/space2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/space2" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintRight_toRightOf="@+id/mDLAButton"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/mDLAButton"
+        android:id="@+id/space3" />
+
+
+    <TextView
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:orientation="horizontal">
+        android:text="@string/label_state"
+        android:textSize="18sp"
+        android:id="@+id/linearLayout"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintRight_toRightOf="@+id/space3"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/space3" />
 
-        <TextView
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:text="@string/label_state"
-            android:textSize="18sp" />
+    <TextView
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnected"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout" />
 
-        <TextView
-            android:id="@+id/connection_state"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/disconnected"
-            android:textSize="18sp" />
-    </LinearLayout>
 
-    <LinearLayout
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/label_data"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp"
+        tools:layout_conversion_absoluteX="8dp"
+        tools:layout_conversion_absoluteY="475dp"
+        tools:layout_conversion_absoluteWidth="60dp"
+        tools:layout_conversion_absoluteHeight="60dp" />
+
+    <TextView
+        android:id="@+id/data_value"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="8dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="60dp"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:text="@string/label_data"
-            android:textAlignment="viewEnd"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/data_value"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:text="@string/no_data"
-            android:textSize="18sp" />
-
-    </LinearLayout>
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/no_data"
+        android:textSize="18sp"
+        tools:layout_conversion_absoluteX="68dp"
+        tools:layout_conversion_absoluteY="475dp"
+        tools:layout_conversion_absoluteWidth="331dp"
+        tools:layout_conversion_absoluteHeight="60dp" />
 
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

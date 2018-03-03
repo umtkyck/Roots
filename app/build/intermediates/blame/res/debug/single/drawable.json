@@ -1,10 +1,22 @@
 [
     {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_background_fill.xml",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\drawable\\progress_background_fill.xml"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_progress.xml",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\drawable\\seekbar_progress.xml"
+    },
+    {
         "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\web_hi_res_512.png",
         "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\drawable\\web_hi_res_512.png"
     },
     {
         "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\render.jpg",
         "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\drawable\\render.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_fill.xml",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\drawable\\progress_fill.xml"
     }
 ]
