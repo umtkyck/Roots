@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\light_off.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-mdpi\\light_off.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\light_on.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-mdpi\\light_on.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\shutdown.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-mdpi\\shutdown.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_app.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_app.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\idea.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-mdpi\\idea.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\shutdown.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-xxhdpi\\shutdown.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\light_on.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-xxhdpi\\light_on.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_app.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_app.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\light_off.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-xxhdpi\\light_off.png"
+    },
+    {
+        "merged": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\idea.png",
+        "source": "C:\\Users\\sumer\\Documents\\Android_Projects\\roots\\app\\src\\main\\res\\mipmap-xxhdpi\\idea.png"
+    }
+]

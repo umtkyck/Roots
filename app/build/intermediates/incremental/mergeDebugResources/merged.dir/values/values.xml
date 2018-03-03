@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="roygbiv">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAcikGri">#93BE79</color>
+    <color name="colorDeepBrown">#727272</color>
+    <color name="colorKahve">#cccccc</color>
+    <color name="colorKoyuGri">#525252</color>
+    <color name="colorLila">#FF99cc</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorSari">#ffff99</color>
+    <color name="colorSavronik">#031734</color>
+    <color name="colorTurkuaz">#00ffff</color>
+    <color name="colorVisneRed">#C37381</color>
+    <color name="colorYesilim">#ccffcc</color>
+    <color name="colorbackground">#d5d7d6</color>
+    <color name="colorblack">#000000</color>
+    <color name="colordimmer">#FF9401</color>
+    <color name="colordla">#52d669</color>
+    <color name="colorlayout">#f1f1f1</color>
+    <color name="coloronoff">#007aff</color>
+    <color name="colorroots">#3dacb4</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="transparent">#ffffff</color>
+    <color name="white">#FFF</color>
+    <string name="app_name">Roots</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="blue_slide">Blue</string>
+    <string name="button">Send</string>
+    <string name="connected">Baglandı</string>
+    <string name="disconnected">Baglantı Kesildi</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="green_slide">Green</string>
+    <string name="is_serial">Gelen Paket:</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">Status:</string>
+    <string name="menu_connect">Baglan</string>
+    <string name="menu_disconnect">Baglatıyı Kes</string>
+    <string name="menu_scan">Tara</string>
+    <string name="menu_stop">Durdur</string>
+    <string name="no_data">No data</string>
+    <string name="red_slide">Red</string>
+    <string name="title_devices">BLE Cihaz Tarama</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Tanımlanamayan Cihaz</string>
+    <string name="unknown_service">Unknown service</string>
+</resources>
